@@ -1,0 +1,11 @@
+diary on
+%% q2.1
+im= imread('images2.png');
+imshow (im)
+h1= ginput(4);
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput>waitForUserInput', '/Applications/MATLAB_R2015b.app/toolbox/matlab/uitools/ginput.m', 151)" style="font-weight:bold">ginput>waitForUserInput</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/uitools/ginput.m',151,0)">line 151</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ginput', '/Applications/MATLAB_R2015b.app/toolbox/matlab/uitools/ginput.m', 69)" style="font-weight:bold">ginput</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/matlab/uitools/ginput.m',69,0)">line 69</a>)
+            mode = waitForUserInput(fig);
+} 
